@@ -2,7 +2,7 @@
 Proyecto de Sistemas
 
 
-#Comenzamos la sintaxis para crear la base de datos:
+# Comenzamos la sintaxis para crear la base de datos:
 
 -- Crear base de datos
 CREATE DATABASE IF NOT EXISTS horizon_haven;

@@ -4,6 +4,7 @@ Proyecto de Sistemas
 
 # Comenzamos la sintaxis para crear la base de datos:
 
+[Tren.txt](https://github.com/user-attachments/files/28917084/Tren.txt)
 -- Crear base de datos
 CREATE DATABASE IF NOT EXISTS horizon_haven;
 USE horizon_haven;
@@ -62,9 +63,6 @@ CREATE TABLE citas (
     CONSTRAINT fk_citas_usuario
         FOREIGN KEY (id_user)
         REFERENCES usuarios(id_user)
-
-
-
         ON DELETE CASCADE
         ON UPDATE CASCADE
 );
